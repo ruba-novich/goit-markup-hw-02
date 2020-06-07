@@ -1,0 +1,153 @@
+:root {
+   --primery-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196F3;
+   --text-white-color: #FFFFFF;
+   --footer-copyright-color: rgba(255, 255, 255, 0.4);
+   --background-color: red;
+   --primery-logo-color:  #212121;
+   --secondary-logo-color:  #2196F3;
+   --footer-logo-colot: #FFFFFF;
+   --button-bg-color: #2196F3;
+   --background-button-portfolio: #F5F4FA;
+}
+
+body {
+   /* background-color: red для удобства проверки белого текста */
+   background-color: var(--background-color);  
+   color: var(--primery-text-color);
+   font-family: Roboto, sans-serif;
+}
+ 
+ul {
+   list-style: none;
+}
+a {
+   text-decoration: none;
+ }
+
+ /* logo */ 
+.logo {
+   color: var(--primery-logo-color);
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.logo:hover {
+   color: var(--accent-color);
+}
+.logo-web {
+   color: var(--secondary-logo-color);
+}
+
+ /* site-nav*/ 
+.site-nav .link {
+   color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+   color: var(--accent-color);
+}
+.site-nav .link.current {
+   color: var(--accent-color);
+}
+
+/* auth-nav */
+.auth-nav a {
+   color: var(--primery-text-color);
+} 
+.auth-nav .mail:hover, .auth-nav .mail:focus {
+   color: var(--accent-color);
+}
+.auth-nav .tel:hover, .auth-nav .tel:focus {
+   color: var(--accent-color);
+}
+
+/* hero */
+.hero-title {
+   color: var(--text-white-color);
+}
+
+/* section */
+.section-title {
+   color: var(--title-text-color);
+}
+
+/* feature */
+.feature-list .title {
+   color: var(--title-text-color);
+}
+
+/* work */
+.work-list .title {
+   color: var(--text-white-color);
+}
+
+/* team */
+.team-list .name {
+   color: var(--title-text-color);
+}
+
+/* client */
+.client-list {
+
+}
+
+/* footer */
+.footer-logo {
+   color: var(--footer-logo-colot);
+   font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+.footer-web {
+   color: var(--secondary-logo-color);
+}
+.footer-logo:hover {
+   color: var(--accent-color);
+}
+.footer-list {
+   color: var(--text-white-color);
+}
+.copyright {
+   color: var(--footer-copyright-color)
+}
+.text-input{
+   color: var(--footer-copyright-color);
+}
+.footer-nav a {
+   color: var(--footer-copyright-color);
+} 
+.footer-nav .footer-mail:hover, .footer-nav .footer-mail:focus {
+   color: var(--accent-color);
+}
+.footer-nav .footer-tel:hover, .footer-nav .footer-tel:focus {
+   color: var(--accent-color);
+}
+
+   /* button */
+
+.button {
+   color: var(--text-white-color);
+   background: var(--button-bg-color);
+}
+/* PORTFOLIO */
+
+.button.portfolio {
+   color: var(--title-text-color);
+   background: var(--background-button-portfolio);
+}
+.project a {
+   color: var(--primery-text-color);
+}
+
+.project .project-title{
+   color: var(--title-text-color);
+}
+.project .popup-text {
+   color: var(--text-white-color);
+}
